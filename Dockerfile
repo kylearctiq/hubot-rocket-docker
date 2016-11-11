@@ -14,6 +14,7 @@ RUN yo hubot --owner="Kyle Bassett" --name="PolarBot" --description="I Help Arct
 RUN npm install hubot-slack
 RUN npm install hubot-urban
 RUN npm install hubot-youtube
+RUN npm install hubot-ttc-alerts
 
 ADD external-scripts.json /opt/hubot/external-scripts.json
 
