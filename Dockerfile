@@ -9,7 +9,7 @@ RUN useradd -ms /bin/bash node
 RUN chown -R node /opt/hubot
 USER node
 
-RUN yo hubot --owner="Bot Wrangler" --name="Hubot" --description="Delightfully aware robutt" --adapter=slack --defaults --allow-root
+RUN yo hubot --owner="Kyle Bassett" --name="PolarBot" --description="I Help Arctiq" --adapter=slack --defaults --allow-root
 
 RUN npm install hubot-slack
 RUN npm install hubot-urban
