@@ -3,6 +3,7 @@ FROM google/nodejs
 RUN mkdir /opt/hubot
 WORKDIR /opt/hubot
 
+RUN npm install -g npm
 RUN npm install -g hubot coffee-script yo generator-hubot
 
 RUN useradd -ms /bin/bash node
