@@ -21,8 +21,9 @@ RUN npm install hubot-devops-reactions
 RUN npm install hubot-victory
 RUN npm install hubot-jenkins
 RUN npm install hubot-rocketchat@1
+Run npm install --save hubot-baronbogo
 
-ADD external-scripts.json /opt/hubot/external-scripts.json
+#ADD external-scripts.json /opt/hubot/external-scripts.json
 
 # override to set proper hubot slack integration token (see slack integrations)
 ENV HUBOT_SLACK_TOKEN=xxxxxxxxxxxxxxxxxxxx
