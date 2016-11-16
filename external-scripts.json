@@ -13,5 +13,6 @@
   "hubot-victory",
   "hubot-jenkins",
   "hubot-baronbogo",
+  "hubot-github-repo-event-notifier",
   "hubot-urban"
 ]
