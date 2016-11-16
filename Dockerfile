@@ -21,7 +21,7 @@ RUN npm install hubot-devops-reactions
 RUN npm install hubot-victory
 RUN npm install hubot-jenkins
 RUN npm install hubot-rocketchat@1
-Run npm install hubot-baronbogo
+Run npm install --save hubot-baronbogo
 
 #ADD external-scripts.json /opt/hubot/external-scripts.json
 
